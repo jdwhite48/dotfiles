@@ -17,7 +17,7 @@ let g:ale_disable_lsp = 1
 let g:ale_lint_on_text_changed = 'always'
 let g:ale_lint_delay = 3		" 3000 ms delay between timeout and linting
 
-call plug#begin('./plugged')
+call plug#begin('~/.config/nvim/plugged')
 	" Vim / Neovim
 	Plug 'rust-lang/rust.vim'	" Rust formatting (Vim 8+)
 	Plug 'dense-analysis/ale'	" Dynamic linter; LSP client (nvim 0.2+, Vim 8+)
